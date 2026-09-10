@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
-    background: #07463f;
+    background: #fcf8ed ;
 }
 
 header {
     text-align: center;
     padding: 30px 20px 20px;
-    color: #fefefe;
+    color: #050505;
 }
 
-.pealkiri h1 {
+h1 {
     font-size: 3rem;
     font-weight: bold;
     letter-spacing: 12px;
@@ -20,7 +20,7 @@ h2 {
     font-size: 1.8rem;
     font-weight: normal;
     margin-top: 8px;
-    color: #fefefe;
+    color: #050505;
 }
 
 h3 {
@@ -50,13 +50,13 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #fff8ee;
+    color: #050505;
     font-size: 1.1rem;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #f4d9a8;
+    color: #ab8b36;
 }
 
 /* bänner pilt */
@@ -94,7 +94,7 @@ nav a:hover {
 }
 
 p {
-    color: #fefefe;
+    color: #050505;
     line-height: 1.6;
     max-width: 600px;
 }
@@ -128,8 +128,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
-    font-size: 1.2rem;
+    color: #45370f;
+    font-size: 1.6rem;
     font-weight: 600;
     opacity: 0;
     transition: all 0.3s ease;
@@ -142,7 +142,7 @@ p {
 }
 
 .galerii-image:hover img {
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 
@@ -158,10 +158,11 @@ p {
 
 .footer-info p {
     font-size: 1rem;
-    color: #fefefe;
+    color: #050505;
 }
 
 .social-icon {
+    filter: invert(1);
     width: 55px;
     height: 55px;
     display: flex;
