@@ -84,7 +84,7 @@ nav a:hover {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 40px;
     align-items: start;
-    padding: 20px;
+    padding: 40px;
     max-width: 1080px;
     margin: auto;
 }
@@ -117,6 +117,7 @@ p {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding: 40px;
     margin: 0 auto;
     width: calc(100vw - 500px);
 }
@@ -164,9 +165,8 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1240px;
-    padding: 20px;
-    margin: 0 auto;
+    background-color:#b8b7b4;
+    padding: 0 50px 0 50px;
 }
 
 .footer-info p {
@@ -176,9 +176,8 @@ p {
 
 .social-icon {
     filter: invert(1);
-    width: 55px;
-    height: 55px;
     display: flex;
+    padding: 10px;
     align-items: center;
     justify-content: center;
 }
@@ -193,6 +192,7 @@ p {
     }
 
     h2 {
+        font-size: 1.3rem;
         margin: auto;
     }
 
