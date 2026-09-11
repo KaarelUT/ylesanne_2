@@ -162,11 +162,18 @@ p {
 /* jalus */
 
 .footer {
+
+    background-color:#b8b7b4;
+}
+
+.footer-konteiner {
+    max-width: 1280px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#b8b7b4;
-    padding: 0 50px 0 50px;
+    margin: auto;
+    padding: 20px;
+
 }
 
 .footer-info p {
@@ -224,6 +231,7 @@ p {
     .meist {
         display: flex;
         flex-direction: column;
+        padding: 20px;
     }
 
     .tulp-1 {
@@ -236,11 +244,9 @@ p {
 
     /* Retseptid ja jalus*/
 
-    .footer {
+    .footer-konteiner {
         text-align: left;
         display: flex;
-        flex-direction: row;
-        padding: 20px;
     }
 
     .retsepti-pildid {
